@@ -1,0 +1,160 @@
+body{
+    /* mix-blend-mode: difference; */
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.613) !important;
+    width: 100% !important;
+
+}
+.hover{
+    display: none;
+    position: absolute ;
+    padding: 10px;
+    border-radius: 10px;
+}
+.suresh:hover  .hover{
+    display: block !important;
+    background-color: rgba(231, 230, 230, 0.589);
+}
+.suresh:hover{
+    background-color: rgba(231, 230, 230, 0.589) ;
+    border-radius: 10px;
+}
+.see{
+    color: rgb(183, 181, 181);
+}
+.see:hover{
+    color: blue;
+}
+.bgimg{
+    background-image: url(https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2023/hero-top/home/opera__home--hero%402x.0e286666ca36.webp);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sticy{
+    position: sticky;
+    top: 200px;
+}
+.topdiv{
+    background: radial-gradient(circle, rgba(238, 174, 202, 0.527) 0%, rgba(148, 188, 233, 0.538) 100%);
+    margin-top: 110px !important;
+}
+.joshi:hover .pp{
+    color: blue;
+}
+.joshi:hover .mm{
+    color: blue;
+}
+.joshi:hover .nn{
+    color: blue !important;
+}
+.one:hover{
+    color: blue;
+}
+.s:hover .n{
+    color: blue !important;
+}
+.s:hover .o{
+    color: blue !important;
+}
+.background{
+    background-image: url(https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2023/parallax/home/opera__home--parallax%402x.bd5a0404d5d9.webp);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.background2{
+    background-image: url(https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/sections/2023/parallax/home/opera__home--parallax-2%402x.5e9e39c5a2b1.webp);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.about:hover .icon{
+    color: blue !important;
+}
+.about:hover .op{
+    color: blue;
+}
+.abs{
+    position: relative;
+    height: 106vh;
+}
+.post{
+    position: sticky !important;
+    top: 200px !important;
+    mix-blend-mode: soft-light;
+}
+@media (max-width:800px) {
+    .abs{
+        position: relative;
+        height: 80vh;
+    }
+    .abss{
+        position: relative;
+        height: 86vh !important;
+    }
+}
+.abss{
+    position: relative;
+    height: 140vh;
+}
+.posts{
+    position: sticky !important;
+    top: 200px !important;
+}
+
+.sj{
+    animation: king 1s ease infinite ;
+    mix-blend-mode: difference;
+    
+}.pppp{
+    mix-blend-mode: difference !important;
+
+
+}
+@keyframes king {
+    form{
+        color: white !important;
+    }
+    to{
+        color: red !important;
+    }
+}
+.ankit:hover .ppp{
+    color: blue !important;
+}
+.ankit:hover .sss{
+    color: blue !important;
+}
+.foterdiv{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.603);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foter{
+    font-size: 13px;
+    font-weight: normal;
+}
+.foter:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.foterdiv:hover{
+    background-color: rgba(0, 0, 255, 0.887);
+    transform: scale(1.1);
+}
+.butt{
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    color:rgb(0, 0, 0) ;
+    font-weight: bold;
+}
